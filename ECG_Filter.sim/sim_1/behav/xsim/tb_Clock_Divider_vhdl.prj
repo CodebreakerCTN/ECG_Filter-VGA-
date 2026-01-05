@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ECG_Filter.srcs/sources_1/new/Clock_Divider.vhd" \
+"../../../../ECG_Filter.srcs/sim_1/new/tb_Clock_Divider.vhd" \
+
+# Do not sort compile order
+nosort
